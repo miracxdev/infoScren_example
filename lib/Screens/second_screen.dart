@@ -73,7 +73,7 @@ class _SecondScreenState extends State<SecondScreen> {
                       fontSize: 13),
                 ),
                 const SizedBox(
-                  height: 70,
+                  height: 200,
                 ),
                 TextButton(
                   onPressed: () {},

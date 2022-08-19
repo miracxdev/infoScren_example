@@ -74,7 +74,7 @@ class _FirstScreenState extends State<FirstScreen> {
                       fontSize: 13),
                 ),
                 const SizedBox(
-                  height: 70,
+                  height: 200,
                 ),
                 TextButton(
                   onPressed: () {
