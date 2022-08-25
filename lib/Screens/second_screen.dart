@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:infoscreen_example/Screens/first_screen.dart';
 import 'package:lottie/lottie.dart';
 
 class SecondScreen extends StatefulWidget {
@@ -18,7 +19,9 @@ class _SecondScreenState extends State<SecondScreen> {
         elevation: 0.0,
         actions: [
           TextButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => FirstScreen(),));
+            },
             child: const Text(
               "Skip",
               style:
@@ -89,7 +92,7 @@ class _SecondScreenState extends State<SecondScreen> {
                           left: 40, right: 40, top: 15, bottom: 15)),
                 ),
                 const SizedBox(
-                  height: 70,
+                  height: 200,
                 ),
               ],
             ),
